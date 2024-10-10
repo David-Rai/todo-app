@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+
+.border-radius{
+    border-radius: 10px
+}
+.li{
+    @apply pr-5 capitalize text-slate-900 font-font4 
+}
+.h1{
+@apply text-sm font-normal lg:text-3xl
+}
+.right-h1{
+    @apply font-font4 text-lg w-[90%] h-10 flex items-center justify-start border-b-2 border-bgColor2 text-bgColor2
+}
+@tailwind utilities;
